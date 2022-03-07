@@ -1,0 +1,2 @@
+rootProject.name = "Firebase Absent"
+include ':app'
