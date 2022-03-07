@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlinandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinAndroid">
+        <activity android:name=".project23_googlemap.P23CurrentlocationActivity"></activity>
+        <activity android:name=".project22_admop.P22InterstitialadsActivity" />
+        <activity android:name=".project22_admop.P22BanneradsActivity" />
+        <activity android:name=".project21_googleauthentication.Project21Activity" />
+        <activity android:name=".project20_recapcha.Project20Activity" />
+        <activity android:name=".project19_notification.NotificationViewActivity" />
+        <activity android:name=".project19_notification.Project19Activity" />
+        <activity android:name=".project18_SQLite.Project18Activity" />
+        <activity android:name=".project17_storage.P17SharedpreferencesActivity" />
+        <activity android:name=".project17_storage.P17InternalActivity" />
+        <activity android:name=".project17_storage.P17ExternalActivity" />
+        <activity android:name=".project16_videoplayer.Project16Activity" />
+        <activity android:name=".project15_mediaplayer.Project15Activity" />
+        <activity android:name=".project14_jsonparsing.Project14Activity" />
+        <activity android:name=".project13_xmlparsing.P13XMLPullpraserActivity" />
+        <activity android:name=".project13_xmlparsing.P13SaxpraserActivity" />
+        <activity android:name=".project13_xmlparsing.P13DomparsingActivity" />
+        <activity android:name=".project12_tablayout.P12ViewpagerActivity" />
+        <activity android:name=".project12_tablayout.P12FramelayoutActivity" />
+        <activity android:name=".project11_seekbar.Project11Activity" />
+        <activity android:name=".project10_webview.Project10Activity" />
+        <activity android:name=".project9_popupmenu.Project9Activity" />
+        <activity android:name=".project8_optionmenu.Project8Activity" />
+        <activity android:name=".project5_listview.Project5CustomActivity" />
+        <activity android:name=".project5_listview.Project7CustomActivity" />
+        <activity android:name=".project7_contextmenu.Project7Activity" />
+        <activity android:name=".project6_alertdialog.Project6Activity" />
+        <activity android:name=".project5_listview.Project5ListviewActivity" />
+        <activity android:name=".project4_intent.FirstActivityImplicit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".project4_intent.FirstActivityExplicits">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".project4_intent.SecondActivityExplicit" />
+        <activity android:name=".project4_intent.FirstActivityExplicit" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- This meta-data tag is required to use Google Play Services. -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.AD_MANAGER_APP" -->
+        <!-- android:value="true"/> -->
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1261733307129447~5720665815" />
+    </application>
+
+</manifest>
